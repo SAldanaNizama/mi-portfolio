@@ -8,7 +8,7 @@ const Home = () => {
       <div className="content">
         <span className="blur"></span>
         <span className="blur"></span>
-        <h4 className="mb-4 text-gray-300">CREATE YOUR SITE LIKE A PRO</h4>
+        <h4 className="mb-4 text-gray-300">FULL STACK || FRONT END || BACK END</h4>
         <h1 className="mb-4 text-4xl font-bold text-white">
           HI, I'm{' '}
           <span className="samir">
@@ -17,8 +17,7 @@ const Home = () => {
           , A Web Developer
         </h1>
         <p className="mb-8 text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio, ad laboriosam repudiandae maxime beatae est, dignissimos deserunt dicta, quidem voluptate minus delectus expedita minima. Tempora porro sit eveniet voluptas.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus debitis iusto, assumenda eum veritatis laboriosam cupiditate! Distinctio, maxime inventore architecto pariatur at impedit ipsum nesciunt minus nihil odio! Est, sit.
+          Hello! I'm Samir, a passionate web developer with expertise in JavaScript and React. I specialize in end-to-end project development and am committed to continuous learning. My goal is to become a senior developer while sharing my passion for programming with others.
         </p>
         <button className="px-6 py-3 text-white bg-blue-600 rounded-lg">Get started</button>
       </div>
