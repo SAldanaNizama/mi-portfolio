@@ -5,10 +5,13 @@ body {
   cursor: none;
 }
 
-a, button, input, textarea, select {
+a,
+button,
+input,
+textarea,
+select {
   cursor: none;
 }
-
 
 @keyframes trail-fade {
   to {
