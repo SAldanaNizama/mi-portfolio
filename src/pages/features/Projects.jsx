@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Features = () => {
+const Projects = () => {
   return (
     <section className="container max-w-screen-xl mx-auto py-16">
       <h2 className="mb-4 text-3xl font-semibold text-center text-white">MY PROJECTS</h2>
@@ -32,7 +32,7 @@ const Features = () => {
           <span className="inline-block bg-blue-900 p-2 mb-4 text-2xl text-white rounded-lg">
             <i className="ri-rocket-line"></i>
           </span>
-          <h4 className="mb-2 text-xl font-semibold text-white">PROYECTO CERVEZAS</h4>
+          <h4 className="mb-2 text-xl font-semibold text-white">Project Beer</h4>
           <p className="mb-4 text-white">
             Our craft beer recipe platform offers a wide range of products for those interested in the industry, from recipes, styles, supplies and machinery to a community where you can share with colleagues interested in craft beers like you. The website offers a user experience focused on being as simple and efficient as possible.
           </p>
@@ -45,4 +45,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default Projects;

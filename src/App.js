@@ -2,20 +2,21 @@ import React from 'react';
 import {Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home.jsx';
 import Navbar from "./components/navbar/Navbar.jsx"
-import Features from "./pages/features/Features.jsx"
-import Pricing from './pages/pricing/Pricing.jsx';
+import Projects from "./pages/features/Projects.jsx"
+import Skills from './pages/pricing/Skills.jsx';
 import About from "./pages/about/About.jsx"
 import Footer from './components/footer/Footer.jsx';
+import CustomCursor from './components/customCursor/CustomCursor.jsx';
 import "./App.css"
 
 const App = () => {
   return (
     <div className=" bg-black min-h-screen">
-     
+     <CustomCursor/>
       <Navbar/>
       <Routes>
-        <Route path="/features" element={<Features />} />
-        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/skills" element={<Skills />} />
         <Route path="/about" element={<About />} />
         <Route path="/" element={<Home />} />
       </Routes>

@@ -10,12 +10,20 @@ const Navbar = () => {
         </Link>
       </div>
       <ul className="flex items-center gap-12">
-        <li><Link to="/" className="relative pb-3 text-white">Home</Link></li>
-        <li><Link to="/features" className="relative pb-3 text-white">Features</Link></li>
-        <li><Link to="/pricing" className="relative pb-3 text-white">Pricing</Link></li>
-        <li><Link to="/about" className="relative pb-3 text-white">About</Link></li>
+        <li>
+          <Link to="/" className="relative pb-3 text-white transition-transform duration-300 hover:scale-105 hover:text-gray-300">Home</Link>
+        </li>
+        <li>
+          <Link to="/projects" className="relative pb-3 text-white transition-transform duration-300 hover:scale-105 hover:text-gray-300">Projects</Link>
+        </li>
+        <li>
+          <Link to="/skills" className="relative pb-3 text-white transition-transform duration-300 hover:scale-105 hover:text-gray-300">Skills</Link>
+        </li>
+        <li>
+          <Link to="/about" className="relative pb-3 text-white transition-transform duration-300 hover:scale-105 hover:text-gray-300">About</Link>
+        </li>
       </ul>
-      <button className="px-6 py-3 text-white bg-blue-600 rounded-lg">Hire Me</button>
+      <button className="px-6 py-3 text-white bg-blue-600 rounded-lg transition-transform duration-300 hover:scale-105">Hire Me</button>
     </nav>
   );
 };

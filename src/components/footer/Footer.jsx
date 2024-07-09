@@ -14,17 +14,7 @@ const About = () => {
           <a href="mailto:samirnizama13@gmail.com"  target='_blank ' className="text-gray-300 border border-gray-300 p-2 text-xl rounded-full transition-all duration-300 hover:text-white hover:bg-blue-600 hover:border-blue-600"><i class="ri-mail-line"></i></a>
         </div>
       </div>
-      <div className="column col-span-3 md:col-span-2">
-        <h4 className="mb-4 text-xl font-semibold text-white">Sitemap</h4>
-        <ul className="text-gray-300">
-          <li className="mb-2"><a href="#" className="transition-all duration-300 hover:text-white">Home</a></li>
-          <li className="mb-2"><a href="#" className="transition-all duration-300 hover:text-white">Features</a></li>
-          <li className="mb-2"><a href="#" className="transition-all duration-300 hover:text-white">Pricing</a></li>
-          <li className="mb-2"><a href="#" className="transition-all duration-300 hover:text-white">About</a></li>
-        </ul>
-      </div>
       <div className="column col-span-3 md:col-span-1">
-        <h4 className="mb-4 text-xl font-semibold text-white">Resources</h4>
         <ul className="text-gray-300">
           <li className="mb-2"><a href="#" className="transition-all duration-300 hover:text-white">Support</a></li>
           <li className="mb-2"><a href="#" className="transition-all duration-300 hover:text-white">Contact</a></li>
