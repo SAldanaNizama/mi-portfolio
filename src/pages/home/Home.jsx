@@ -18,13 +18,10 @@ const Home = () => {
           and am committed to continuous learning. My goal is to become a senior
           developer while sharing my passion for programming with others.
         </p>
-        <button className="px-6 py-3 text-white bg-blue-600 rounded-lg">
-          Get started
-        </button>
       </div>
       <div className="image relative">
         <img
-          src="./imagenHeader.jpg"
+          src="/imagenHeader.jpg"
           alt="Header Image"
           className="max-w-[600px] mx-auto"
         />
