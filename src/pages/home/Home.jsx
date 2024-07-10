@@ -19,6 +19,7 @@ const Home = () => {
           and am committed to continuous learning. My goal is to become a senior
           developer while sharing my passion for programming with others.
         </p>
+        <h2 className="mb-4 text-4xl font-bold text-white">Contact:</h2>
         <div className="socials flex items-center gap-4">
           <a
             href="https://www.linkedin.com/in/samir-aldana-nizama-579587260/"
