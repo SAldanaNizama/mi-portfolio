@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -7,9 +8,8 @@ const Projects = () => {
         MY PROJECTS
       </h2>
       <div className="features grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 justify-center md:justify-start md:ml-20">
-        <a
-          href="https://e-commerce-front-grupo03.onrender.com/"
-          target="_blank"
+        <Link
+          to="/poleritas"
           className="card bg-gray-800 p-6 border-2 border-transparent rounded-lg transition-all duration-300 hover:bg-gray-700 hover:border-white w-full md:w-auto md:max-w-sm h-auto text-white no-underline"
         >
           <span className="inline-block bg-blue-900 p-2 mb-4 text-2xl text-white rounded-lg">
@@ -24,13 +24,11 @@ const Projects = () => {
             Functions: Secure authentication integration through Auth0. Product
             and shopping cart management. Payment processing using Stripe.
           </p>
-        </a>
+        </Link>
 
-        <a
-          href="https://c15-09-t-node-react.vercel.app/"
-          target="_blank"
+        <Link
+          to="/beer"
           className="card bg-gray-800 p-6 border-2 border-transparent rounded-lg transition-all duration-300 hover:bg-gray-700 hover:border-white w-full md:w-auto md:max-w-sm h-auto text-white no-underline"
-          rel="noreferrer"
         >
           <span className="inline-block bg-blue-900 p-2 mb-4 text-2xl text-white rounded-lg">
             <i className="ri-rocket-line"></i>
@@ -45,7 +43,7 @@ const Projects = () => {
             interested in craft beers like you. The website offers a user
             experience focused on being as simple and efficient as possible.
           </p>
-        </a>
+        </Link>
       </div>
     </section>
   );

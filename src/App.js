@@ -6,6 +6,8 @@ import Projects from "./pages/projects/Projects.jsx";
 import Skills from "./pages/pricing/Skills.jsx";
 import About from "./pages/about/About.jsx";
 import CustomCursor from "./components/customCursor/CustomCursor.jsx";
+import Poleritas from "./pages/project/Poleritas.jsx";
+import Beer from "./pages/project/Beer.jsx";
 import "./App.css";
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
         <Route path="/skills" element={<Skills />} />
         <Route path="/about" element={<About />} />
         <Route path="/" element={<Home />} />
+        <Route path="/poleritas" element={<Poleritas />} />
+        <Route path="/beer" element={<Beer />} />
       </Routes>
     </div>
   );
