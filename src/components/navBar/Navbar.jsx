@@ -34,13 +34,7 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        {/* <li>
-          <Link to="/about" className="relative pb-3 text-white transition-transform duration-300 hover:scale-105 hover:text-gray-300">About</Link>
-        </li> */}
       </ul>
-      {/* <button className="px-6 py-3 text-white bg-blue-600 rounded-lg transition-transform duration-300 hover:scale-105">
-        Hire Me
-      </button> */}
     </nav>
   );
 };
