@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home.jsx";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/navbar/Navbar.jsx";
 import Projects from "./pages/projects/Projects.jsx";
 import Skills from "./pages/pricing/Skills.jsx";
 import CustomCursor from "./components/customCursor/CustomCursor.jsx";
