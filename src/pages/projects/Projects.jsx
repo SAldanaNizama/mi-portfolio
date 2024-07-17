@@ -27,21 +27,25 @@ const Projects = () => {
         </Link>
 
         <Link
-          to="/beer"
+          to="/world"
           className="card bg-gray-800 p-6 border-2 border-transparent rounded-lg transition-all duration-300 hover:bg-gray-700 hover:border-white w-full md:w-auto md:max-w-sm h-auto text-white no-underline"
         >
           <span className="inline-block bg-blue-900 p-2 mb-4 text-2xl text-white rounded-lg">
             <i className="ri-rocket-line"></i>
           </span>
-          <h4 className="mb-2 text-xl font-semibold text-white">
-            Project Beer
-          </h4>
+          <h4 className="mb-2 text-xl font-semibold text-white">Word</h4>
           <p className="mb-4 text-white">
-            Our craft beer recipe platform offers a wide range of products for
-            those interested in the industry, from recipes, styles, supplies and
-            machinery to a community where you can share with colleagues
-            interested in craft beers like you. The website offers a user
-            experience focused on being as simple and efficient as possible.
+            Objective:
+            <br />
+            Develop an intuitive and user-friendly interface for users to
+            explore information about different continents and countries. The
+            interface is responsive to provide an optimal experience on both
+            desktop and mobile devices. <br />
+            Description:
+            <br />
+            This project is a web application that displays country information
+            using a GraphQL API. The application includes the following
+            features:
           </p>
         </Link>
       </div>

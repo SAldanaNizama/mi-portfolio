@@ -4,10 +4,9 @@ import Home from "./pages/home/Home.jsx";
 import Navbar from "./components/navbar/Navbar.jsx";
 import Projects from "./pages/projects/Projects.jsx";
 import Skills from "./pages/pricing/Skills.jsx";
-import About from "./pages/about/About.jsx";
 import CustomCursor from "./components/customCursor/CustomCursor.jsx";
 import Poleritas from "./pages/project/Poleritas.jsx";
-import Beer from "./pages/project/Beer.jsx";
+import World from "./pages/project/World.jsx";
 import "./App.css";
 
 const App = () => {
@@ -18,10 +17,9 @@ const App = () => {
       <Routes>
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/about" element={<About />} />
         <Route path="/" element={<Home />} />
         <Route path="/poleritas" element={<Poleritas />} />
-        <Route path="/beer" element={<Beer />} />
+        <Route path="/world" element={<World />} />
       </Routes>
     </div>
   );

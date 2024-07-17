@@ -12,23 +12,31 @@ import { SiExpress, SiPostgresql } from "react-icons/si";
 // Lista de miembros del equipo
 const teamMembers = [
   {
-    name: "Juan Pérez",
-    linkedIn: "https://www.linkedin.com/in/juan-perez/",
+    name: "Ignacio Araoz",
+    linkedIn: "https://www.linkedin.com/in/ignacio-araoz-23710b28b/",
   },
   {
-    name: "María López",
-    linkedIn: "https://www.linkedin.com/in/maria-lopez/",
+    name: "Mateo Giampietro",
+    linkedIn: "https://www.linkedin.com/in/mateo-giampietro-414461292/",
   },
   {
-    name: "Carlos García",
-    linkedIn: "https://www.linkedin.com/in/carlos-garcia/",
+    name: "David Morcillo Benavidez",
+    linkedIn: "https://www.linkedin.com/in/david-morcillo-benavidez-aljo1996/",
+  },
+  {
+    name: "Brayan Holguin",
+    linkedIn: "https://www.linkedin.com/in/brayan-holguin/",
+  },
+  {
+    name: "Samir Aldana",
+    linkedIn: "https://www.linkedin.com/in/samirnizama/",
   },
 ];
 
 // Componente para una tarjeta de miembro del equipo
 const TeamMemberCard = ({ name, linkedIn }) => {
   return (
-    <div className="bg-gray-700 text-white p-4 rounded-lg shadow-md text-center m-2">
+    <div className="border border-blue-400 text-blue-400 p-4 rounded-lg shadow-md text-center m-2">
       <h3 className="text-xl font-bold mb-2">{name}</h3>
       <a
         href={linkedIn}
@@ -44,12 +52,12 @@ const TeamMemberCard = ({ name, linkedIn }) => {
 
 const Poleritas = () => {
   return (
-    <div className="bg-gray-800 text-white rounded-lg p-8 shadow-md">
+    <div className="bg-transparent text-blue-400 rounded-lg p-8 shadow-md">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold">Poleritas</h2>
       </div>
       <div className="flex justify-between items-start">
-        <div className="bg-blue-200 text-black rounded-lg p-8 shadow-md transform transition-transform hover:scale-105 max-w-lg w-full mr-4">
+        <div className="flex-1 border border-blue-400 text-blue-400 rounded-lg p-8 shadow-md transform transition-transform hover:scale-105 max-w-lg w-full mr-4">
           <p className="text-lg mb-4">
             Desarrollé en equipo "Poleritas", una plataforma de comercio
             electrónico especializada en la venta de camisetas, como proyecto
@@ -64,28 +72,32 @@ const Poleritas = () => {
             camisetas según sus preferencias.
           </p>
         </div>
-        <div className="flex flex-col items-center">
-          <img
-            src="/poleritas.png"
-            alt="Imagen del proyecto Poleritas"
-            className="rounded-lg max-w-sm w-1/2 mb-5"
-          />
+        <div className="flex-1 border border-blue-400 text-blue-400 rounded-lg p-8 shadow-md transform transition-transform hover:scale-105 max-w-lg w-full">
+          <h2 className="text-2xl font-semibold mb-4">Teams:</h2>
+          <div className="flex justify-center flex-wrap">
+            {teamMembers.map((member) => (
+              <TeamMemberCard
+                key={member.name}
+                name={member.name}
+                linkedIn={member.linkedIn}
+              />
+            ))}
+          </div>
         </div>
       </div>
+      <br />
       <div className="text-left mb-4">
-        <span className="font-semibold">Tecnologías utilizadas:</span>
         <div className="flex justify-center mt-2">
-          <FaReact className="text-4xl text-blue-400 mx-2 transition-transform hover:scale-110" />
-          <FaNodeJs className="text-4xl text-green-400 mx-2 transition-transform hover:scale-110" />
-          <FaJsSquare className="text-4xl text-yellow-400 mx-2 transition-transform hover:scale-110" />
-          <FaDatabase className="text-4xl text-blue-600 mx-2 transition-transform hover:scale-110" />
-          <FaCss3Alt className="text-4xl text-blue-500 mx-2 transition-transform hover:scale-110" />
-          <SiExpress className="text-4xl text-gray-500 mx-2 transition-transform hover:scale-110" />
-          <SiPostgresql className="text-4xl text-blue-300 mx-2 transition-transform hover:scale-110" />
+          <FaReact className="text-6xl mx-2 transition-transform hover:scale-110" />
+          <FaNodeJs className="text-6xl mx-2 transition-transform hover:scale-110" />
+          <FaJsSquare className="text-6xl mx-2 transition-transform hover:scale-110" />
+          <FaDatabase className="text-6xl mx-2 transition-transform hover:scale-110" />
+          <FaCss3Alt className="text-6xl mx-2 transition-transform hover:scale-110" />
+          <SiExpress className="text-6xl mx-2 transition-transform hover:scale-110" />
+          <SiPostgresql className="text-6xl mx-2 transition-transform hover:scale-110" />
         </div>
       </div>
       <div>
-        <h2 className="font-semibold">Links:</h2>
         <br />
         <ul className="text-left flex justify-center space-x-8">
           <li>
@@ -106,25 +118,13 @@ const Poleritas = () => {
               className="text-blue-400 hover:text-blue-200"
             >
               <img
-                src="/render.png"
+                src="/poleritas.png"
                 alt="Deploy en Render"
                 className="h-12 transition-transform hover:scale-110"
               />
             </a>
           </li>
         </ul>
-      </div>
-      <div className="mt-8">
-        <h2 className="text-2xl font-semibold mb-4">Equipo:</h2>
-        <div className="flex justify-center flex-wrap">
-          {teamMembers.map((member) => (
-            <TeamMemberCard
-              key={member.name}
-              name={member.name}
-              linkedIn={member.linkedIn}
-            />
-          ))}
-        </div>
       </div>
     </div>
   );
