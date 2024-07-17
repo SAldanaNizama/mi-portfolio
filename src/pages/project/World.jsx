@@ -1,5 +1,5 @@
 import React from "react";
-import { FaReact, FaJsSquare, FaCss3Alt, FaGithub } from "react-icons/fa";
+import { FaReact, FaJsSquare, FaGithub } from "react-icons/fa";
 import { SiGraphql } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiVite } from "react-icons/si";

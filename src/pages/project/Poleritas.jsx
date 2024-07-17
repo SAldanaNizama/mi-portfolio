@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { SiExpress, SiPostgresql } from "react-icons/si";
 
-// Lista de miembros del equipo
+// Team members list
 const teamMembers = [
   {
     name: "Ignacio Araoz",
@@ -33,7 +33,7 @@ const teamMembers = [
   },
 ];
 
-// Componente para una tarjeta de miembro del equipo
+// Team member card component
 const TeamMemberCard = ({ name, linkedIn }) => {
   return (
     <div className="border border-blue-400 text-blue-400 p-4 rounded-lg shadow-md text-center m-2">
@@ -59,17 +59,15 @@ const Poleritas = () => {
       <div className="flex justify-between items-start">
         <div className="flex-1 border border-blue-400 text-blue-400 rounded-lg p-8 shadow-md transform transition-transform hover:scale-105 max-w-lg w-full mr-4">
           <p className="text-lg mb-4">
-            Desarrollé en equipo "Poleritas", una plataforma de comercio
-            electrónico especializada en la venta de camisetas, como proyecto
-            final del bootcamp Soy Henry. Optimicé el rendimiento del frontend
-            utilizando React y CSS para mejorar la velocidad de carga y la
-            experiencia del usuario. Implementé autenticación segura mediante
-            Auth0, asegurando una experiencia de usuario protegida y eficiente.
-            Utilicé metodologías ágiles Scrum para organizar y gestionar el
-            desarrollo del proyecto, mejorando la comunicación y la colaboración
-            dentro del equipo. Implementé un sistema de filtrado avanzado para
-            productos, mejorando la capacidad de los usuarios para encontrar
-            camisetas según sus preferencias.
+            I developed "Poleritas", an e-commerce platform specializing in the
+            sale of t-shirts, as a final project for the Soy Henry bootcamp.
+            Optimized frontend performance using React and CSS to improve load
+            speed and user experience. Implemented secure authentication using
+            Auth0, ensuring a protected and efficient user experience. Used
+            agile Scrum methodologies to organize and manage project
+            development, improving communication and collaboration within the
+            team. Implemented an advanced product filtering system, enhancing
+            users' ability to find t-shirts according to their preferences.
           </p>
         </div>
         <div className="flex-1 border border-blue-400 text-blue-400 rounded-lg p-8 shadow-md transform transition-transform hover:scale-105 max-w-lg w-full">
@@ -119,7 +117,7 @@ const Poleritas = () => {
             >
               <img
                 src="/poleritas.png"
-                alt="Deploy en Render"
+                alt="Deploy on Render"
                 className="h-12 transition-transform hover:scale-110"
               />
             </a>
