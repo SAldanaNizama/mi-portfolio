@@ -116,7 +116,7 @@ const Poleritas = () => {
               className="text-blue-400 hover:text-blue-200"
             >
               <img
-                src="/poleritas.png"
+                src="/Poleritas.png"
                 alt="Deploy on Render"
                 className="h-12 transition-transform hover:scale-110"
               />
